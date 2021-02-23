@@ -1,4 +1,4 @@
-module.exports = function function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
   let brack = [];
   for (const item of bracketsConfig) {
     brack.push(item.join(''))
